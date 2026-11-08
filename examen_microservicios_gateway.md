@@ -237,6 +237,8 @@ Nombre: Aldo Noé Pacheco Gaona           Calificación :_________
   a) ¿Qué problema de *diseño* introdujo Diana aunque «todo responda
   200»? (Piensen en una sola puerta vs dos puertas.)
 
+  R: 
+
   b) Beto configuró `RECOMENDAR_URL=http://localhost:8002' porque en su
   máquina desarrolló Pedidos y Recomendar juntos. En el salón Recomendar
   está en la laptop de Carla. ¿Qué falla y cómo lo corrigen *sin* juntar
