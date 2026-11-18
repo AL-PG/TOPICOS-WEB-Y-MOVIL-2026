@@ -171,3 +171,30 @@ app.*.symbols
 .agents/rules/personal-*
 .agents/skills/personal-*
 /.agent-shell/
+
+# Local environment values; keep reusable configuration examples.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Additional Flutter caches and generated output.
+.flutter-plugins
+.fvm/flutter_sdk
+.fvm/versions/
+/test-results/
+app.*.map
+*.apk
+*.aab
+*.ipa
+
+# Private signing material.
+*.keystore
+*.p12
+*.pfx
+*.mobileprovision
+
+# Windows metadata.
+Thumbs.db
+Desktop.ini

@@ -1,1 +1,49 @@
-.venv
+# Python virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Python bytecode and generated packages
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+/build/
+/dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Django local database, logs, and generated files
+*.sqlite3
+*.sqlite3-*
+*.log
+/media/
+/staticfiles/
+
+# Test, coverage, and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
